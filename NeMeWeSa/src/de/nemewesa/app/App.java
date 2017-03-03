@@ -15,7 +15,7 @@ public class App {
 	// Legt fest, ob Statusinformationen angezeigt werden sollen.
 	public static final boolean DEV_MODE = false;
 	
-	private Player player;
+	private Player player;  // TEST FROM IDE
 	private Level level;
 	private Round round = Round.getRoundInstance();
 	private DB db = DB.getInstance();
