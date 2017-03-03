@@ -42,7 +42,7 @@ public class Console {
 					public void execute(){
 						player.load(playerFile);
 						player = App.getAppInstance().getPlayer();
-						System.err.println("LADEN - AP: " + App.getAppInstance().getPlayer().getAp());
+						System.err.println("CONSOLE LADEN - AP: " + App.getAppInstance().getPlayer().getAp());
 						mainmenu();
 					}});
 		

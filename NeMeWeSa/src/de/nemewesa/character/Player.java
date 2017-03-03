@@ -247,7 +247,7 @@ public class Player implements Observer, Serializable{
 				//Object object = null;
 			
 				Object object = in.readObject();
-				System.err.println("LADEN - AP:2 " + ((Player)object).getAp());
+				System.err.println("PLAYER LOAD - AP: " + ((Player)object).getAp());
 
 				if(object != null) {
 					App.getAppInstance().setPlayer((Player)object);
